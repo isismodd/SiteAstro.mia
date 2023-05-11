@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style> body{
+		background:url("assets/2735347.jpg");
+		background-repeat: no-repeat;
+ 		background-attachment: fixed;
+  		background-size: cover;
+		}
+    </style>
+
+        <title>Astro.mia</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="icon" href="/assets/meme-pop-cat.png" type="/image/png"/>
+
+        <meta nome="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+</head>
+    <body id="page-home">
+        <div id="loader"></div>
+        <nav>
+            <div class="logo">
+			<img src="assets/gatomeme.png" width="70" height="70" alt="Cat meme"/>  <br><br>
+			</div>
+			<div class="menu">             
+			<button class="button buttonhome" onclick="location.href='index.html';" value="Go to Home">Home</button>
+            <button class="button buttonhome" onclick="location.href='Sobre.html';" value="Go to Sobre">Sobre</button>
+            <button class="button buttonhome" onclick="location.href='Quiz.html';" value="Go to Quiz">Quiz</button>
+            <button class="button buttonhome" onclick="location.href='fale.html';" value="Go to FAQ">Fale Conosco</button>
+            </div><!--menu-->
+        </nav>
+        <div class="titulosobre">
+            <h1 class="titulosobre"> Questões sobre: Pessoas importantes na astronomia </h1> 
+        </div> 
+        <div id="quiz">
+       <div class="question">Qual o tipo de estrela é o sol?</div>
+       <div class="answers" style="color: rgb(11, 56, 11);">
+       <label><input type="radio" name="question0" value="a">Estrela azul</label>
+       <label><input type="radio" name="question0" value="b">Estrela anã amarela</label>
+       <label><input type="radio" name="question0" value="c">Estrela anã vermelha</label>
+      </div>
+    <div class="question">Quando plutão foi classificado como planeta anão? </div>
+    <div class="answers" style="color: rgb(11, 56, 11);">
+    <label>
+        <input type="radio" name="question1" value="a">2006
+    </label>
+    <label>
+        <input type="radio" name="question1" value="b">1999
+    </label>
+    <label>
+        <input type="radio" name="question1" value="c">2004
+    </label>
+    <label>
+        <input type="radio" name="question1" value="d">2000
+    </label>
+    </div>
+        <div class="question">Do que principalmente depende o tempo de vida das estrelas?</div><div class="answers" style="color: rgb(78, 3, 3);">
+    <label>
+        <input type="radio" name="question2" value="a">Seu brilho</label>
+    <label>
+        <input type="radio" name="question2" value="b">Sua temperatura</label>
+    <label>
+        <input type="radio" name="question2" value="c">Sua luminosidade</label>
+    <label>
+        <input type="radio" name="question2" value="d">Sua massa</label>
+    </div>
+    <div class="question">Quanto tempo leva o movimento de translação?</div><div class="answers" style="color: rgb(78, 3, 3);">
+        <label>
+            <input type="radio" name="question2" value="a">80 dias</label>
+        <label>
+            <input type="radio" name="question2" value="b">3 anos</label>
+        <label>
+            <input type="radio" name="question2" value="c">1 ano</label>
+        <label>
+            <input type="radio" name="question2" value="d">24 horas</label>
+        </div>
+    </div>
+   
+    <button id="submit">Ver resultados</button>
+    <div class="results"
+       id="results">0 de 5
+    </div>
+    <form action="Quiz.html">
+        <input type="submit" value="Voltar tópico 1" />
+    </form>
+    <script src="js/quiz3.js"></script>
+</body>
+</html>
