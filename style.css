@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.button {
+  border: 2px solid;
+  color: rgb(151, 52, 243);
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 26px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  font-family: 'Pacifico',cursive;
+}
+
+.buttonhome {
+  background-color: rgb(151, 52, 243); 
+  color: black; 
+  border: 2px solid rgba(255, 255, 255, 0.384);
+}
+
+.buttonhome:hover {
+  background-color: rgba(247, 144, 247, 0.336);
+  color: rgba(223, 193, 252, 0.301);
+  cursor: url(/assets/cursor.png), pointer;
+}
+
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+    cursor: url(/assets/arrow2662.cur), default; 
+    /*font-family: 'Pacifico',cursive;*/
+}
+nav{
+    background-color: rgb(151, 52, 243);
+    padding: 5px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ nav.logo a{
+    
+    text-decoration: none;
+    color:rgb(138, 183, 223);
+ }
+
+.logo{
+	display: flex;
+	padding-top: 0px;
+    padding-left: 0px;
+    width: 70px;
+}
+
+.menu{
+	display: flex;
+    text-align: left;
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.titulosobre{
+    text-align: center;
+	font-family: 'Pacifico',cursive;
+    color: rgb(238, 150, 150);
+    font-size: 60;
+    text-shadow: 
+    3px 3px 0px #130000,
+
+}
+.textocomum{
+    font-size: 15px;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(7, 28, 66);
+    display:list-item;
+}
+
+
+.textosobre{
+    position: absolute;
+	text-align: justify;
+    margin-top: 38px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(54, 0, 65, 0.678);
+	font-size: 16px;
+}
+
+.textoindex{
+    position: relative;
+	text-align: center;
+	display: block;
+    margin-top: 100px;
+    font-family: 'Pacifico',cursive;
+}
+.textoquiz{
+    position: relative;
+	text-align: center;
+	display: block;
+    margin-top: 40px;
+    font-family: 'Pacifico',cursive;
+    color: rgb(255, 167, 167);
+    font-weight:bolder;
+    text-decoration:none !important
+}
+.textoquiz:hover {
+    text-shadow: 
+    3px 3px 0px #eaeaea,
+    6px 6px 0px #ccc,
+    9px 9px 0px #777,
+    12px 12px 0px #333;
+    }
+    
+
+.fig1{
+	text-align: center;
+    border: 5px;
+    border-radius: 15px;
+}
+
+.fig2{
+    text-align: justify;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form [type="submit"]{
+    height: 20px;
+    width: 14%;
+    background-color: rgba(112, 79, 173, 0.678);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+input{
+    margin-top: 15px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: rgba(208, 63, 236, 0.719);
+    font-size: 15px;
+    cursor: url(/assets/cursor.png), pointer;
+}
+.question{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 25px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.answers {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#submit{
+    display: flex;
+    text-align: center;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+	background-color: rgb(194, 13, 97);
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 17px;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+#submit:hover{
+    text-align: center;
+	background-color: rgb(250, 79, 199);
+    cursor: url(/assets/cursor.png), pointer;
+}
+#results{
+    text-align: center;
+    font-size: 20px;
+}
